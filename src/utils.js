@@ -3,7 +3,7 @@ import { addIndex, curryN, map, pipe, curry } from 'ramda'
 
 export const log = console.log
 
-export const ROOT_DIR = path.join(__dirname, '..', '..', '..')
+export const ROOT_DIR = process.cwd()
 
 export const pathJoin2 = curryN(2, path.join)
 
