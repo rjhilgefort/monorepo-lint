@@ -1,8 +1,7 @@
-# validate-monorepo-packages
+# Validate Monorepo Packages
 
-Validate monorepo packages
+This package is useful for enforcing a standard across all packages in a monorepo. For examples, you can enforce that all `package.json`s have a test command like this:
 
-## TODO
-
-- [ ] The output order is just whatever promise finishes first. Might be nice to sort it.
-- [ ] Expose a blacklist for ignored modules
+```json
+  "test": "jest"
+```

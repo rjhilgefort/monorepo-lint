@@ -11,7 +11,7 @@ export const reportWorkspace = pipe(
     pipe(
       readdir,
       // TODO: Expose a blacklist for ignored modules
-      then(reject(equals('storybook'))), 
+      then(reject(equals('storybook'))),
       then(
         mapAsync(
           pipe(

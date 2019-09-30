@@ -1,8 +1,14 @@
 {
-    "cSpell.words": [
-        "Hilgefort",
-        "gmail",
-        "rjhilgefort",
-        "unnest"
-    ]
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.packageManager": "yarn",
+  "cSpell.words": [
+    "Hilgefort",
+    "gmail",
+    "preinstall",
+    "rjhilgefort",
+    "treis",
+    "unnest"
+  ]
 }
